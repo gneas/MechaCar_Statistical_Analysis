@@ -19,3 +19,7 @@ total_summary <- suspensioncoil %>% summarize(Mean=mean(PSI),Median=median(PSI),
 
 # Create lot_summary dataframe using groupby() and summarize().
 lot_summary <- suspensioncoil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI))
+
+# Boxplot to examine Lot3 variance
+plt <- ggplot(suspensioncoil, aes(x=Manufacturing_Lot, y=PSI))
+plt + geom_boxplot()
