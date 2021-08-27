@@ -16,5 +16,7 @@ A project utilizing R in order to analyze a prototype car from AutoRUs called Me
 ### Total Summary:
 ![SuspensioncoilTotalSummary](/images/SuspensioncoilTotalSummary.png "SuspensioncoilTotalSummary")
 
+It is clear from total summary above that the variance across the whole dataset, 62.29356 psi, does not exceed the 100 psi ceiling.
+  
 ### Lot Summary:
 ![SuspensioncoilLotSummary](/images/SuspensioncoilLotSummary.png "SuspensioncoilLotSummary")
