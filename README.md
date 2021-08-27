@@ -25,4 +25,4 @@ We can see that Lot3 shows a variance of 170.2861224 psi, which does exceed the 
 
 ![SuspensioncoilLotBoxPlot](/images/SuspensioncoilLotBoxPlot.png "SuspensioncoilLotBoxPlot")
 
-From this visualization we can see that this variance is exceeding the 100 psi threshold as a result of outliers.
+From this visualization above we can see that this variance is exceeding the 100 psi threshold as a result of outliers.
