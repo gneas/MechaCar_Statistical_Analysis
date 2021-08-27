@@ -26,3 +26,15 @@ We can see that Lot3 shows a variance of 170.2861224 psi, which does exceed the 
 ![SuspensioncoilLotBoxPlot](/images/SuspensioncoilLotBoxPlot.png "SuspensioncoilLotBoxPlot")
 
 From this visualization above we can see that this variance is exceeding the 100 psi threshold as a result of outliers.
+
+## T-Tests on Suspension Coils
+
+### T-Test on All Manufacturing Lots
+![SuspensioncoilTTestAllLots](/images/SuspensioncoilTTestAllLots.png "SuspensioncoilTTestAllLots")
+
+From the image above we can see that utilizing the T-Test function can show us whether or not the PSI across all manufacturing lots is statistically different from the population mean of 1,500 psi. The p-value of 0.06028 being larger than the significance of 0.05% tells us that the mean across all lots is statistically similar to the population mean of 1,500 psi.
+
+### T-Test on Individual Lots 1, 2, and 3
+![SuspensioncoilTTestLot1Lot2Lot3](/images/SuspensioncoilTTestLot1Lot2Lot3.png "SuspensioncoilTTestLot1Lot2Lot3")
+
+Here we can see that Lots 1 and 2 both have p-values greater than the significance of 0.05% indicating that the null hypothesis cannot be rejected and therefore they are not statistically different from the population mean of 1,500 psi. Lot 3 on the other hand has a p-value less than the significance level of 0.05%. This tells us that Lot 3 has a sample mean that leads us to reject the null hypothesis. 
