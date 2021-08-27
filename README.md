@@ -16,7 +16,13 @@ A project utilizing R in order to analyze a prototype car from AutoRUs called Me
 ### Total Summary:
 ![SuspensioncoilTotalSummary](/images/SuspensioncoilTotalSummary.png "SuspensioncoilTotalSummary")
 
-It is clear from total summary above that the variance across the whole dataset, 62.29356 psi, does not exceed the 100 psi ceiling.
-  
+It is clear from total summary above that the variance across the whole dataset, 62.29356 psi, does not exceed the 100 psi ceiling. However, when we look at the Lot Summary we see a variance that does.
+
 ### Lot Summary:
 ![SuspensioncoilLotSummary](/images/SuspensioncoilLotSummary.png "SuspensioncoilLotSummary")
+
+We can see that Lot3 shows a variance of 170.2861224 psi, which does exceed the 100 psi ceiling. To further examine Lot3's data, a Boxplot visualization can be helpful.
+
+![SuspensioncoilLotBoxPlot](/images/SuspensioncoilLotBoxPlot.png "SuspensioncoilLotBoxPlot")
+
+From this visualization we can see that this variance is exceeding the 100 psi threshold as a result of outliers.
