@@ -10,11 +10,11 @@ A project utilizing R in order to analyze a prototype car from AutoRUs called Me
 
 ## Summary Statistics on Suspension Coils
 
-Suspension Coil Dataframe:
+### Suspension Coil Dataframe:
 ![SuspensioncoilDataframe](/images/SuspensioncoilDataframe.png "SuspensioncoilDataframe")
 
-Total Summary:
+### Total Summary:
 ![SuspensioncoilTotalSummary](/images/SuspensioncoilTotalSummary.png "SuspensioncoilTotalSummary")
 
-Lot Summary:
+### Lot Summary:
 ![SuspensioncoilLotSummary](/images/SuspensioncoilLotSummary.png "SuspensioncoilLotSummary")
