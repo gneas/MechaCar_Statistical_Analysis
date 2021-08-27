@@ -38,3 +38,27 @@ From the image above we can see that utilizing the T-Test function can show us w
 ![SuspensioncoilTTestLot1Lot2Lot3](/images/SuspensioncoilTTestLot1Lot2Lot3.png "SuspensioncoilTTestLot1Lot2Lot3")
 
 Here we can see that Lots 1 and 2 both have p-values greater than the significance of 0.05% indicating that the null hypothesis cannot be rejected and therefore they are not statistically different from the population mean of 1,500 psi. Lot 3 on the other hand has a p-value less than the significance level of 0.05%. This tells us that Lot 3 has a sample mean that leads us to reject the null hypothesis. 
+
+## Study Design: MechaCar vs Competition
+
+### Metrics to be tested
+
+- Cost of MechaCar vs Competition
+- MPG of MechaCar vs Competition
+- Horsepower of MechaCar vs Competition
+
+### Null and Alternative Hypothesis
+
+- Cost:
+    - Null: MechaCar cost is less than competitor.
+    - Alt: MechaCar cost is not less than competitor.
+- MPG:
+    - Null: MechaCar MPG is less than competitor.
+    - Alt: MechaCar MPG is not less than competitor.
+- Horsepower:
+    - Null: MechaCar horsepower is greater than competitor.
+    - Alt: MechaCar horsepower is not greater than competitor.
+
+### Statistical Test
+
+Linear regression models would be used to test all three metrics. An examination of the slopes identified would show how MechaCar compares to its competition in each of these areas. Data containing the cost, MPG, and horsepower for the MechaCar and its competition would need to be compiled for this testing.
